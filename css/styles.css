@@ -1,0 +1,151 @@
+#title{
+    background-color: #ff4c68;
+    position: relative;
+    z-index: -1;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+}
+
+/* .container{
+    padding: 5%;
+} */
+
+.title-image{
+    transform: rotate(20deg);
+    width: 20%;
+    position: absolute;
+    right: 25%;
+    z-index: 0; 
+}
+
+@media (max-width: 980px){
+    .title-image{
+        transform: rotate(0deg);
+        width: 50%;
+        position: static;
+    }
+
+    .title-text{
+        text-align: center;
+    }
+    .title-image-div{
+        text-align: center;
+    }
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    margin-left: 30px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+.download-buttton{
+    margin: 5% 3%;
+}
+
+#features{
+    padding: 5% 0%;
+    background-color: white;
+}
+
+.features-row{
+    color: black;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+h2{
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+p{
+    color: #8f8f8f;
+    font-family: "Ubuntu";
+    padding: 5%;
+}
+
+.icon{
+    color: #ff4c68;
+    margin-bottom: 3%;
+}
+
+.icon:hover{
+    color: #ff4caa;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+    background-color: #ff4c68;
+    text-align: center;
+}
+
+.testimonial-image{
+    
+    width: 10%;
+    border-radius: 100%;
+    margin: 3%;
+}
+
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-image{
+    width: 10%;
+    margin: 0% 5% 0% 5%;
+}
+
+#carouselExampleControls{
+    color: white;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.each-card{
+    padding: 3%;
+}
+
+#pricing{
+    margin: auto;
+    text-align: center;
+    
+}
+
+.each-btn{
+    position: absolute;
+    right:    10%;
+    left:     10%;
+    bottom:   1%;
+}
+
+#cta{
+    background-color: #ff4c68;
+}
+
+.conclusion{
+    text-align: center;
+    margin: 2% 10% 2% 10%;
+    color: white;
+    padding: 7%;
+    font-size: 35px;
+}
