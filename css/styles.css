@@ -1,20 +1,15 @@
 #title{
     background-color: #ff4c68;
-    position: relative;
-    z-index: -1;
 }
 
 .heading{
     color: white;
     font-size: 4rem;
     font-family: 'Montserrat', sans-serif;
+    margin-top: 20%;
 }
 
 .container{
-    padding-top: 2%;
-}
-
-.container-fluid{
     padding: 5%;
 }
 
@@ -25,10 +20,7 @@
 
 .title-image{
     transform: rotate(20deg);
-    width: 20%;
-    position: absolute;
-    right: 25%;
-    z-index: 0; 
+    width: 50%;
 }
 
 @media (max-width: 980px){
